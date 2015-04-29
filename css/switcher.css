@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+.style-switcher{
+
+	width:200px;
+
+	height:auto;
+
+	background:#fafafa;
+
+	border-radius:0px 3px 3px 0px;
+
+	position:fixed;
+
+	left:0px;
+
+	top:162px;
+
+	z-index:99999;
+
+}
+
+.style-switcher h4{
+
+	font-size:13px;
+
+	color:#acacac;
+
+}
+
+.style-switcher hr{
+
+	margin:0px;
+
+	border-top:solid 1px #fff;
+
+	border-width:1px 0px 1px 0px;
+
+	border-bottom:solid 1px #eff1f0;
+
+}
+
+a.switch_control{
+
+	display:block;
+
+	width:47px;
+
+	height:42px;
+
+	position:absolute;
+
+	right:-45px;
+
+	top:0px;
+
+	border-radius:0px 3px 3px 0px;
+
+	background:url(../images/gear.png) no-repeat center #fafafa;
+
+}
+
+.style-switcher > div{
+
+	padding:15px;
+
+}
+
+
+
+.style-switcher .menu_style a{
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:100;
+	border-radius:3px;
+	display:inline-block;
+	line-height:100%;
+	padding:7px 12px 7px;
+}
+
+.style-switcher .menu_style a.dark{
+	background:#666;
+	color:#fff;
+}
+.style-switcher .menu_style a.light{
+	background:#d6d6d6;
+	color:#666;
+}
+
+.style-switcher .slots{
+
+	width:20px; height:20px; display:inline-block;
+
+	margin:2px;
+
+	border-radius:3px;
+
+}
+
+.style-switcher .slots:hover{
+
+	box-shadow:0px 0px 8px #fff;
+
+}
+
+
+
+/*colors*/
+
+.default{ background:#01CFC2;}
+
+.light-green{ background:#a5e182;}
+
+.light-red{ background:#ED5565;}
+
+.orange{ background:#f35d47;}
+
+.yellow{ background:#fec262;}
+
+.midnight-blue{ background:#384263;}
+
+
+
+/*Backrgound*/
+
+.bg1 { background-image: url(../images/bg/creampaper.html); }
+
+.bg2 { background-image: url(../images/bg/debut_dark.html); }
+
+.bg3 { background-image: url(../images/bg/noisy_grid.html); }
+
+.bg4 { background-image: url(../images/bg/shattered.html); }
+
+.bg5 { background-image: url(../images/bg/wood_pattern.html); }
+
+.bg6 { background-image: url(../images/bg/subtle_zebra_3d.html); }
+
+.bg7 { background-image: url(../images/bg/silver_scales.html); }
+
+.bg8 { background-image: url(../images/bg/linen.html); }
+
+.bg9 { background-image: url(../images/bg/light_wool.html); }
+
+.bg10 { background-image: url(../images/bg/gplaypattern.html); }
+
+.bg11 { background-image: url(../images/bg/tileable_wood_texture.html); }
+
+.bg12 { background-image: url(../images/bg/diamond_upholstery.html); }
+
+.bg13 { background-image: url(../images/bg/denim.html); }
+
+.bg14 { background-image: url(../images/bg/cartographer.html); }
+
